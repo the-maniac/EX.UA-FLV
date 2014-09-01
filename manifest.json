@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "EX.UA FLV LINKS",
-  "description": "Searching FLV liks on the page for play them in any player instead of Adobe Flash Player",
+  "description": "Searching FLV links on the page for play them in any player instead of Adobe Flash Player",
   "version": "1.0",
 
   "browser_action": {
