@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "EX.UA FLV LINKS",
+  "description": "Searching FLV liks on the page for play them in any player instead of Adobe Flash Player",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+     "scripts": ["background.js"],
+     "persistent": false
+  },
+  "permissions": [
+    "tabs",
+    "https://ex.ua/*",
+    "http://ex.ua/*",
+    "https://www.ex.ua/*",
+    "http://www.ex.ua/*"
+  ]
+}
